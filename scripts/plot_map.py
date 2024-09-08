@@ -30,11 +30,11 @@ fig, ax = plt.subplots(1, 1, figsize=(10, 10))
 
 # Plot the LGA polygons and color them by the 'trip_household_ratio_index'
 lga_gdf.plot(column='trip_household_ratio_index', ax=ax, legend=True, cmap='OrRd', 
-             legend_kwds={'label': "Total Trip Count by LGA",
+             legend_kwds={'label': "Transit Equity Index (dwelling)",
                           'orientation': "horizontal"})
 
 # Add a title
-ax.set_title('Total Bus Trips by LGA', fontsize=15)
+ax.set_title('Transit Equity Index (dwelling)', fontsize=15)
 
 # Remove axis for cleaner visualization
 ax.set_axis_off()
