@@ -33,6 +33,8 @@ We also construct a Transit Equity Index for each Local Government Area (LGA). T
 **Transit Equity Index = Number of Bus and Train Trips / Population or Household or Dwelling**  
 
 
+![plot](data/processed/lga_trip_counts_map.png)
+
 This index reflects the relative accessibility and adequacy of public transportation services within each LGA. A higher index value indicates a greater availability of public transport relative to the number of people, households, or dwellings, suggesting better access to transit services. Conversely, a lower index value points to a potential shortfall in public transportation coverage, highlighting areas where additional services may be needed.  
 
 By evaluating the Transit Equity Index, stakeholders can identify disparities in transit accessibility, prioritize areas for infrastructure investment, and develop strategies to ensure equitable public transportation services across all regions, particularly in rapidly growing suburbs.  
